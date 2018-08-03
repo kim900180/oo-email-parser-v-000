@@ -13,5 +13,7 @@ class EmailParser
     self.class.all << self
   end
 
-
+  def self.new(emails)
+    emails.split(", ")
+  end
 end
