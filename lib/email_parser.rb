@@ -16,7 +16,7 @@ class EmailParser
   end
 
   def self.new(emails)
-    emails.split(", ")
+    array = emails.split(", ")
   end
-  binding.pry
+
 end
